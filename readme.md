@@ -2,6 +2,8 @@
 
 這是我上商研院 Java雲端應用開發工程師實戰養成班的第一個專題，也是我首次接觸web應用的後端
 
+前端在這:https://github.com/LMonkey1025/car_rental_frontend
+
 此專案是一個極簡易的租車系統
 整個專案使用Maven建構Spring boot
 
