@@ -5,7 +5,8 @@
 前端在這:https://github.com/LMonkey1025/car_rental_frontend
 
 此專案是一個極簡易的租車系統
-整個專案使用Maven建構Spring boot
+
+專案使用Maven建構Spring boot
 
 # application.properties 文件內容
 
