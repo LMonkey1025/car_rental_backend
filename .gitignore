@@ -1,0 +1,5 @@
+src/main/java/com/example/car_rentel_project/service/impl/EmailServiceImpl.java
+src/main/resources/application.properties
+
+# 停止提交 target 目录
+target/*

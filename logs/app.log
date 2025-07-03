@@ -1,0 +1,29 @@
+2025-07-03T22:52:51.096+08:00  INFO 46705 --- [car_rental_project] [main] c.e.c.CarRentalProjectApplication        : Starting CarRentalProjectApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 46705 (/Users/monkey/Desktop/JAVA班/專題/car_rental_backend/target/car_rental_project-0.0.1-SNAPSHOT.jar started by monkey in /Users/monkey/Desktop/JAVA班/專題/car_rental_backend)
+2025-07-03T22:52:51.099+08:00  INFO 46705 --- [car_rental_project] [main] c.e.c.CarRentalProjectApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-07-03T22:52:51.637+08:00  INFO 46705 --- [car_rental_project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03T22:52:51.730+08:00  INFO 46705 --- [car_rental_project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 5 JPA repository interfaces.
+2025-07-03T22:52:51.990+08:00  INFO 46705 --- [car_rental_project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2025-07-03T22:52:51.999+08:00  INFO 46705 --- [car_rental_project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-03T22:52:51.999+08:00  INFO 46705 --- [car_rental_project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-07-03T22:52:52.018+08:00  INFO 46705 --- [car_rental_project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-03T22:52:52.018+08:00  INFO 46705 --- [car_rental_project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 892 ms
+2025-07-03T22:52:52.119+08:00  INFO 46705 --- [car_rental_project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03T22:52:52.163+08:00  INFO 46705 --- [car_rental_project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-07-03T22:52:52.186+08:00  INFO 46705 --- [car_rental_project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-03T22:52:52.328+08:00  INFO 46705 --- [car_rental_project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03T22:52:52.347+08:00  INFO 46705 --- [car_rental_project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-03T22:52:52.447+08:00  INFO 46705 --- [car_rental_project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59e0d521
+2025-07-03T22:52:52.448+08:00  INFO 46705 --- [car_rental_project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-03T22:52:52.502+08:00  INFO 46705 --- [car_rental_project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03T22:52:53.092+08:00  INFO 46705 --- [car_rental_project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03T22:52:53.188+08:00  INFO 46705 --- [car_rental_project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03T22:52:53.314+08:00  INFO 46705 --- [car_rental_project] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-03T22:52:54.652+08:00  INFO 46705 --- [car_rental_project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2025-07-03T22:52:54.660+08:00  INFO 46705 --- [car_rental_project] [main] c.e.c.CarRentalProjectApplication        : Started CarRentalProjectApplication in 3.823 seconds (process running for 4.169)
