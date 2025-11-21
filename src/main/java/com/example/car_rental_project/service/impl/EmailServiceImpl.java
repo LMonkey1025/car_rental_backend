@@ -36,8 +36,8 @@ public class EmailServiceImpl {
         // 使用email獲取UUID
         UUID uuid = userRepository.findByEmail(email).getId(); // 假設User實體有一個UUID作為ID
 
-        // 生成確認連結
-        String confirmUrl = "http://localhost:8083/user/api/activate/" + uuid; // 假設啟動連結為此格式
+        // 生成前端啟用連結
+        String confirmUrl = "http://localhost:3000/activate/" + uuid; // 改為前端 activate 頁面
         // 發送電子郵件
         sendEmail(email, confirmUrl);
     }

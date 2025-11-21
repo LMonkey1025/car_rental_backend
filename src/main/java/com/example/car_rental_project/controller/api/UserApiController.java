@@ -222,7 +222,7 @@ public class UserApiController {
     }
 
     /**
-     * 處理帳號啟用請求 (API 版本)
+     * 處理帳號啟用請求
      * 
      * @param uuid 啟用碼
      * @return JSON 回應
@@ -233,7 +233,7 @@ public class UserApiController {
             // 調用您現有的 activateUser 方法
             userService.activateUser(uuid);
 
-            return ResponseEntity.ok(ApiResponse.success("帳號啟用成功！您現在可以登入系統。", null));
+            return ResponseEntity.ok(ApiResponse.success("帳號啟用成功！將跳轉到登入頁面。", null));
 
         } catch (IllegalArgumentException e) {
             return ResponseEntity.badRequest()

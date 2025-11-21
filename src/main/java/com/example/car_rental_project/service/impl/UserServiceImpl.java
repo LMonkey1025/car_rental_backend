@@ -82,11 +82,6 @@ public class UserServiceImpl implements UserService {
             User user = userRepository.findById(userId)
                     .orElseThrow(() -> new IllegalArgumentException("找不到對應的用戶"));
 
-            // 檢查用戶是否已經啟用
-            if (user.isEnabled()) {
-                throw new IllegalArgumentException("帳號已經啟用");
-            }
-
             // 啟用用戶
             user.setEnabled(true);
             user.setUpdatedAt(LocalDateTime.now());
